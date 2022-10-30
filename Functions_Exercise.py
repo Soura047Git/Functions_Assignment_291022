@@ -37,6 +37,7 @@ print(f"ip address of computer: ", IP_Address)
 
 
 #Solution of the problem 5:----
+#Get multiplication fo all numeric values from a list
 l = [3.5, 6.56, 4,5,"sudh" , "ineuron" , 'fsda bootcamp 2.0'] #Input List
 def MultiValue(l): #Declaration of Function
     num=1
@@ -45,4 +46,5 @@ def MultiValue(l): #Declaration of Function
             num=num*i
     print(num)        
 MultiValue(l)
+
 
