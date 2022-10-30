@@ -47,4 +47,8 @@ def MultiValue(l): #Declaration of Function
     print(num)        
 MultiValue(l)
 
+#Solution of the problem 8:-----
+#Read word document file by using Python
+import docx #import module docx in order to access word file 
 
+doc = docx.Document("E:/python_code_input.docx") #create docx object 
