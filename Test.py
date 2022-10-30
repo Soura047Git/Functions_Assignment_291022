@@ -27,3 +27,4 @@ def MultiValue(l): #Declaration of Function
             num=num*i
     print(num)        
 MultiValue(l)
+
